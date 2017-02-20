@@ -1,0 +1,250 @@
+.chat > .title-wrap > .title {
+	display: none;
+}
+
+.theme-dark .chat .title-wrap .topic::before {
+	display: none;
+}
+
+.chat > .title-wrap > .topic {
+	font-size: 12px;
+	line-height: 12px;
+	max-height: 35px;
+	white-space: normal;
+	margin-left: 0px;
+	padding-left: 5px;
+}
+
+.header-toolbar {
+	margin-left: 5px;
+	margin-right: -12px;
+}
+
+.message-group.compact .message .markup {
+	font-size:75%;
+}
+
+.theme-dark .friends-table .messages .message-group.compact .user-name, .theme-dark .messages-wrapper .messages .message-group.compact .user-name {
+	font-size:100%;
+}
+
+.channels-wrap {
+	width: 152px;
+}
+
+/* .scroller-wrap .guild-channels {
+	height: 150%;
+} */
+
+/* .scroller-wrap .scrollbar {
+	height: 90%;
+} */
+
+.channel-members-wrap {
+	min-width: 170px;
+}
+
+.channel-members {
+	max-width: 170px;
+	padding: 2px 0;
+}
+
+.channel-members .member .member-inner {
+	width: 115px;
+}
+
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+	border-radius: 20%;
+}
+
+.scroller-wrap.polyfill .scroller {
+	padding-right: 0px;
+}
+
+.channel-members .member {
+	padding: 3px 2px;
+}
+
+.channel-members h2 {
+	padding: 0 0px;
+	margin: 0;
+	letter-spacing: 0;
+}
+
+.channel-members .member + h2 {
+	margin-top: 12px;
+}
+
+.channel-members .member .member-activity {
+	visibility: hidden;
+	font-size: 0px;
+}
+
+.account {
+	height: 50px;
+}
+.account .account-details {
+	visibility: hidden;
+}
+
+.channel-members .member .member-activity strong {
+	visibility: visible;
+	font-size: 10px;
+}
+
+.account .btn-group {
+	position: relative;
+	left: -75px;
+}
+
+.guild-channels .channel {
+	font-size:65%;
+}
+
+.guild-channels header {
+	font-size:65%;
+	margin-top: 20px;
+}
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted)::before {
+	top: 8px;
+	left: -5px;
+	width: 9px;
+	height: 7px;
+}
+
+.guild-channels .channel-text a {
+	padding: 5px 0px 5px 7px;
+}
+
+.guild-channels .channel-voice {
+	padding: 5px 0px 5px 10px;
+}
+
+.message-group {
+	margin-left: 5px;
+	margin-right: -17px;
+	padding: 0;
+}
+
+.message-group.compact .message .message-text .markup {
+	text-indent: -80px;
+	padding-left: 50px;
+}
+
+.message-group.compact .message {
+	padding: 0;
+	margin: 0 0 1px 0;
+}
+
+.message-group .mentioned .message-text {
+	margin-left: 15px;
+	position: relative;
+	left: -10px;
+	
+}
+
+.theme-dark .message-group.compact .mentioned .timestamp {
+	width: 70px;
+}
+
+.message-group .comment .markup {
+	margin-top: 0px;
+}
+
+.embed .embed-title {
+	margin-bottom: 0px;
+	font-size: 10px;
+}
+
+.embed .embed-provider {
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
+.message-group.compact .accessory {
+	padding-left: 50px;
+}
+
+.embed .embed-description, .embed .embed-error {
+	font-size: 10px;
+}
+
+.guild-channels .channel-voice-states {
+	margin-top: 0px;
+	padding-left: 0;
+}
+
+.guild-channels .channel-voice-states li {
+	font-size: 10px;
+}
+
+.message-group.compact .emotewrapper img{
+	max-height: 16px !important;
+	margin: -5px 0.1em !important;
+}
+
+.channel-textarea {
+	margin: 10px 0 30px;
+}
+
+.message-group.compact .timestamp {
+	width: 75px;
+	text-align: right;
+	padding-right: 5px;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+.message-group-blocked .message-group-blocked-btn {
+	font-size: 8px;
+	padding: 1px 0;
+	margin: -6px 0;
+}
+
+code {
+	font-family: Menlo,Consolas,Monaco,monospace;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.message-group .comment .markup pre {
+	max-width: 100%;
+}
+
+.theme-dark .hljs {
+	background: #002b36;
+	color: #F7FDFE;
+}
+
+.message-group.compact .message {
+	line-height: 10px;
+}
+
+.chat .divider > span {
+	line-height: 12px;
+	font-weight: 800;
+	padding: 0 5px;
+	font-size: 11px;
+	z-index: 2;
+}
+
+
+.theme-dark .friends-table .messages .divider.divider-red > span, .theme-dark .messages-wrapper .messages .divider.divider-red > span {
+	color: rgba(240,71,71,0);
+	/* padding: 0 10px; */
+	font-size: 0;
+}
+
+.chat .divider > span {
+	padding: 0 0; 
+}
+
+.chat form {
+	margin: 0 10px;
+}
+
+.bot-tag {
+	background: #000;
+	font-size: 9px;
+}
